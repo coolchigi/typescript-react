@@ -3,8 +3,9 @@ import React from 'react'
 const InputField = () => {
     return (
         <div>
+            <form>
             <input type="text" placeholder="Add Task"/>
-            <button>Add</button>
+            </form>
         </div>
     )
 }
